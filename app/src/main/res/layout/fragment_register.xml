@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+   >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/publica_sans"
+        android:text="Register"
+        android:textColor="@color/Black"
+        android:layout_marginBottom="30dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/edtRegisterFirstName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="5dp"
+        android:layout_margin="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/btnBackFromSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/white"
+            android:src="@drawable/ic_back"
+            />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <EditText
+        android:textColor="@color/black"
+        android:fontFamily="@font/publica_sans"
+        android:paddingStart="20dp"
+        android:padding="5dp"
+        android:textColorHint="@color/gray"
+        android:background="@drawable/drawable_writemessage_edittext"
+        android:id="@+id/edtRegisterFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:hint="@string/first_name"
+        android:inputType="text"
+        android:minWidth="300dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:visibility="invisible"
+        android:id="@+id/txtWarningFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_first_name"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/edtRegisterFirstName"
+        app:layout_constraintStart_toStartOf="@+id/edtRegisterFirstName"
+        app:layout_constraintTop_toBottomOf="@+id/edtRegisterFirstName" />
+
+    <EditText
+        android:textColor="@color/black"
+        android:fontFamily="@font/publica_sans"
+        android:paddingStart="20dp"
+        android:padding="5dp"
+        android:textColorHint="@color/gray"
+        android:background="@drawable/drawable_writemessage_edittext"
+        android:id="@+id/edtRegisterLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name"
+        android:inputType="text"
+        android:minWidth="300dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtWarningFirstName" />
+
+    <TextView
+        android:id="@+id/txtWarningLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_last_name"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/edtRegisterLastName"
+        app:layout_constraintStart_toStartOf="@+id/edtRegisterLastName"
+        app:layout_constraintTop_toBottomOf="@+id/edtRegisterLastName" />
+
+    <EditText
+        android:textColor="@color/black"
+        android:fontFamily="@font/publica_sans"
+        android:paddingStart="20dp"
+        android:padding="5dp"
+        android:textColorHint="@color/gray"
+        android:id="@+id/edtRegisterEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:minWidth="300dp"
+        android:minHeight="48dp"
+        android:background="@drawable/drawable_writemessage_edittext"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtWarningLastName" />
+
+    <TextView
+
+        android:id="@+id/txtWarningPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_phone_number"
+        android:textColor="@color/red"
+
+        android:visibility="invisible"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/edtRegisterEmail"
+        app:layout_constraintStart_toStartOf="@+id/edtRegisterEmail"
+        app:layout_constraintTop_toBottomOf="@+id/edtRegisterEmail" />
+
+    <EditText
+        android:textColor="@color/black"
+        android:fontFamily="@font/publica_sans"
+        android:paddingStart="20dp"
+        android:padding="5dp"
+        android:textColorHint="@color/gray"
+        android:id="@+id/edtRegisterPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:minWidth="300dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/drawable_writemessage_edittext"
+        app:layout_constraintHorizontal_bias="0.5"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtWarningPhoneNumber" />
+
+    <TextView
+        android:id="@+id/txtWarningPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_password"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/edtRegisterPassword"
+        app:layout_constraintStart_toStartOf="@+id/edtRegisterPassword"
+        app:layout_constraintTop_toBottomOf="@+id/edtRegisterPassword" />
+
+    <EditText
+        android:textColor="@color/black"
+        android:fontFamily="@font/publica_sans"
+        android:paddingStart="20dp"
+        android:padding="5dp"
+        android:textColorHint="@color/gray"
+        android:id="@+id/edtRegisterConfirmPassword"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:hint="Re-enter password"
+        android:background="@drawable/drawable_writemessage_edittext"
+        android:minWidth="300dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtWarningPassword" />
+
+    <TextView
+        android:id="@+id/txtWarningPasswordAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_password_again"
+        android:visibility="invisible"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/edtRegisterConfirmPassword"
+        app:layout_constraintStart_toStartOf="@+id/edtRegisterConfirmPassword"
+        app:layout_constraintTop_toBottomOf="@+id/edtRegisterConfirmPassword" />
+
+    <Button
+        android:elevation="10dp"
+        android:text="@string/sign_up"
+        android:textStyle="bold"
+        android:id="@+id/btnSingUp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:fontFamily="@font/publica_sans"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_sign_in_button"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtRegisterConfirmPassword" />
+
+    <TextView
+        android:fontFamily="@font/publica_sans"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/i_already_have_an_account"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnSingUp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSingUp" />
+
+    <TextView
+        android:id="@+id/txtGoToSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        android:fontFamily="@font/publica_sans"
+        android:textColor="@color/darkblue"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

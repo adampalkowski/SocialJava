@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-anydpi/ic_clock.xml" value="0.2517094017094017" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-anydpi/ic_darkmode.xml" value="0.3015625" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-anydpi/ic_date.xml" value="0.2517094017094017" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-anydpi/ic_emojis.xml" value="0.3671875" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-anydpi/ic_forward.xml" value="0.3015625" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-anydpi/ic_friends.xml" value="0.2708333333333333" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-anydpi/ic_hourglass.xml" value="0.3923076923076923" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-anydpi/ic_info.xml" value="0.24743589743589745" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-anydpi/ic_location.xml" value="0.2" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-anydpi/ic_people_filled.xml" value="0.2" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-anydpi/ic_person_waving.xml" value="0.2" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-anydpi/ic_profile.xml" value="0.2708333333333333" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-anydpi/ic_profile_black.xml" value="0.2708333333333333" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-anydpi/ic_rdown.xml" value="0.22264957264957264" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-anydpi/ic_requirements.xml" value="0.24743589743589745" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-anydpi/ic_search_filled.xml" value="0.28020833333333334" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-anydpi/ic_up.xml" value="0.22264957264957264" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-hdpi/customsearchedit2.xml" value="0.29739583333333336" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-hdpi/ic_friends_blue.xml" value="0.2974683544303797" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-hdpi/ic_home_blue.xml" value="0.2974683544303797" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-hdpi/ic_icon_event_blue.xml" value="0.2974683544303797" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-hdpi/ic_icon_search_blue.xml" value="0.2974683544303797" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-mdpi/ic_rectangle_20_filled.xml" value="0.253125" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-mdpi/selecthighlitevents.xml" value="0.2708333333333333" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-mdpi/selecthighlitfriends.xml" value="0.2708333333333333" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-mdpi/selecthighlithome.xml" value="0.2708333333333333" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/addeduser_background.xml" value="0.18125" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/background_bottom_bar.xml" value="0.29375" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/background_top_bar.xml" value="0.3015625" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/circular_button.xml" value="0.18125" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/custom_background_button_1.xml" value="0.3671875" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/custom_background_button_2.xml" value="0.3015625" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/drawable_btn_log_out.xml" value="0.253125" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/drawable_writemessage_edittext.xml" value="0.3671875" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/facebookicon.xml" value="0.29583333333333334" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/home_friend_rec_layout.xml" value="0.25092592592592594" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/ic_google_icon.xml" value="0.18125" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/ic_icon_events.xml" value="0.18125" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/ic_icon_profile.xml" value="0.2708333333333333" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/ic_icon_search.xml" value="0.2974683544303797" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/ic_rectangle_20.xml" value="0.18125" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/ic_send_icon_red.xml" value="0.3671875" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/icon_home.xml" value="0.3671875" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/recycler_view_element.xml" value="0.225" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-v24/search_bar_background.xml" value="0.3671875" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable-xxhdpi/ic_forward_white.xml" value="0.2465811965811966" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable/create_group_btn.xml" value="0.29583333333333334" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable/custom_date_button.xml" value="0.2517094017094017" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable/custom_rec_view_remaining_tiem.xml" value="0.2282051282051282" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable/custom_sign_in_button.xml" value="0.3671875" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable/custom_time_button.xml" value="0.22264957264957264" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable/custom_time_length_button.xml" value="0.22264957264957264" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable/customsearchedit.xml" value="0.29739583333333336" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable/edit_gray_background.xml" value="0.24743589743589745" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable/edittext_activity_name.xml" value="0.2517094017094017" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable/edittxt_message.xml" value="0.3671875" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable/ic_search_fill.xml" value="0.28020833333333334" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable/ic_send_icon.xml" value="0.29375" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable/minimap_custom_draw.xml" value="0.30128205128205127" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable/rounded_dialog.xml" value="0.21153846153846154" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable/selecthighlit.xml" value="0.2708333333333333" />
+        <entry key="..\:/Socialv2/app/src/main/res/drawable/settingsbutton.xml" value="0.3015625" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/activity_main.xml" value="0.15104166666666666" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/add_friends_dialog.xml" value="0.25" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/calendar_dialog_layout.xml" value="0.23846153846153847" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/chat.xml" value="0.22" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/chat_item_left.xml" value="0.25" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/chat_item_right.xml" value="0.3423913043478261" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/create_added_users_recycler_item.xml" value="0.9" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/create_recycler_layout.xml" value="0.25" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/created_recycler_layout_green.xml" value="0.67" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/fragment_create_activity.xml" value="0.25" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/fragment_events.xml" value="0.25" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/fragment_friends.xml" value="0.18" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/fragment_login.xml" value="0.33" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/fragment_profile.xml" value="0.20364583333333333" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/fragment_register.xml" value="0.25" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/fragment_search.xml" value="0.25" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/fragment_settings.xml" value="0.33" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/friend_recycler_layout.xml" value="0.2" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/home_friend_rec_layout.xml" value="0.2640625" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/home_friend_rec_lyout.xml" value="0.33" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/invite_friends_bottom_sheet.xml" value="0.33" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/marker_info_contents.xml" value="0.244017094017094" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/proposed_users_recycler_layout.xml" value="0.33" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/reset_pop.xml" value="0.19479166666666667" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/reset_pop_two.xml" value="0.28541666666666665" />
+        <entry key="..\:/Socialv2/app/src/main/res/layout/timer_dialog_layout.xml" value="0.23846153846153847" />
+        <entry key="..\:/Socialv2/app/src/main/res/menu/menu_bottom_app_bar.xml" value="0.18489583333333334" />
+        <entry key="..\:/Socialv2/app/src/main/res/xml/network_security_config.xml" value="0.28541666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

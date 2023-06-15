@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:id="@+id/userContainer"
+    android:background="@color/white"
+    android:clipToPadding="false"
+    android:padding="0dp"
+    >
+
+     <androidx.cardview.widget.CardView
+         android:layout_width="match_parent"
+        android:id="@+id/homeRecViewCardViewLayout"
+         android:elevation="10dp"
+         android:backgroundTint="@color/lightlightgray"
+             app:cardCornerRadius="30dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           android:layout_height="wrap_content">
+
+
+         <androidx.constraintlayout.widget.ConstraintLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentStart="true"
+             android:layout_alignParentTop="true"
+             android:layout_marginStart="0dp"
+             android:layout_marginTop="0dp"
+             android:padding="10dp"
+             >
+
+
+             <TextView
+                 android:layout_marginLeft="20dp"
+                 android:id="@+id/profileNameRec"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="@font/publica_sans"
+                 android:text="Name"
+                 android:textColor="@color/black"
+                 android:textSize="24sp"
+                 app:layout_constraintBottom_toBottomOf="@+id/homeProfileRecView"
+                 app:layout_constraintStart_toEndOf="@+id/homeProfileRecView"
+                 app:layout_constraintTop_toTopOf="@+id/homeProfileRecView" />
+
+             <de.hdodenhof.circleimageview.CircleImageView
+                 android:id="@+id/homeProfileRecView"
+                 android:layout_width="30dp"
+                 android:layout_marginTop="20dp"
+                 android:layout_marginLeft="20dp"
+                 android:layout_height="30dp"
+                 android:layout_gravity="right"
+                 android:background="@color/fui_transparent"
+                 android:src="@drawable/ic_profile"
+                 app:layout_constraintStart_toStartOf="parent"
+                 app:layout_constraintTop_toTopOf="parent" />
+
+             <com.google.android.material.card.MaterialCardView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="20dp"
+                 app:cardCornerRadius="25dp"
+                 app:layout_constraintBottom_toBottomOf="parent"
+                 app:layout_constraintEnd_toEndOf="parent"
+                 app:layout_constraintHorizontal_bias="0.498"
+                 app:layout_constraintStart_toStartOf="parent"
+                 app:layout_constraintTop_toBottomOf="@+id/homeProfileRecView">
+
+                 <TextView
+                    android:layout_margin="10dp"
+                     android:id="@+id/profileActivityRec"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:fontFamily="@font/publica_sans"
+                     android:text="Activity"
+                     android:textColor="@color/black"
+                     android:textSize="18sp" />
+
+             </com.google.android.material.card.MaterialCardView>
+
+
+         </androidx.constraintlayout.widget.ConstraintLayout>
+
+     </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homeRecViewCardViewLayout"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/custom_rec_view_remaining_tiem"
+
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/activityProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/publica_sans"
+            android:text="Remaining time"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</RelativeLayout>

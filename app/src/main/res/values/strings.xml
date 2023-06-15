@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Socialv2</string>
+
+
+
+        <string name="email">Email</string>
+        <string name="password">Password</string>
+        <string name="forgot_password">Forgot Password?</string>
+        <string name="don_t_have_an_account">Don\'t have an account?</string>
+        <string name="sign_up">Sign Up</string>
+        <string name="facebook_image">facebook image</string>
+        <string name="sign_in">Sign In</string>
+        <string name="google_image">google image</string>
+        <string name="social">Social</string>
+        <string name="start">Start</string>
+
+        <!-- Strings related to login -->
+        <string name="prompt_email">Email</string>
+        <string name="prompt_password">Password</string>
+        <string name="action_sign_in">Sign in or register</string>
+        <string name="action_sign_in_short">Sign in</string>
+        <string name="welcome">"Welcome!"</string>
+        <string name="invalid_username">Not a valid username</string>
+        <string name="invalid_password">Password must be >5 characters</string>
+        <string name="login_failed">"Login failed"</string>
+        <string name="image">image</string>
+        <string name="first_name">First Name</string>
+        <string name="enter_first_name">Enter First Name</string>
+        <string name="last_name">Last Name</string>
+        <string name="enter_last_name">Enter Last Name</string>
+
+        <string name="enter_phone_number">Enter Phone Number</string>
+        <string name="facebook_application_id" translatable="false">YOUR_APP_ID</string>
+        <string name="facebook_login_protocol_scheme" translatable="false">fbYOUR_APP_ID</string>
+        <string name="enter_password">Enter Password</string>
+
+        <string name="enter_password_again">Enter Password Again</string>
+
+        <string name="i_already_have_an_account">I already have an account.</string>
+        <string name="text_label">Verify your email address</string>
+        <string name="action_text">verify</string>
+        <string name="fab_content_desc">floating action button</string>
+        <string name="extended_fab_label">Ready for fun</string>
+        <string name="extended_fab_content_desc">fab</string>
+        <!-- TODO: Remove or change this placeholder text -->
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+        <string name="lorem_ipsum">loremipsumloremipsumloremipsumloremipsumloremipsumloremipsumloremipsum</string>
+
+</resources>

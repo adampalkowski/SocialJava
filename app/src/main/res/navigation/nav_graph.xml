@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nav_graph"
+        app:startDestination="@id/startScreen">
+
+        <fragment
+            android:id="@+id/startScreen"
+            android:name="com.example.socialv2.LoginActivity"
+            android:label="fragment_first"
+            tools:layout="@layout/fragment_login" >
+
+            <action
+                android:id="@+id/action_loginScreen_to_registerActivity"
+                app:destination="@id/registerActivity" />
+
+
+            <action
+                android:id="@+id/action_loginScreen_to_homeActivity"
+                app:destination="@id/homeActivity" />
+        </fragment>
+    <fragment
+        android:id="@+id/registerActivity"
+        android:name="com.example.socialv2.RegisterActivity"
+        android:label="RegisterActivity"
+        tools:layout="@layout/fragment_register">
+        <action
+            android:id="@+id/action_registerActivity_to_loginScreen"
+            app:destination="@id/startScreen" />
+
+        <action
+            android:id="@+id/action_registerActivity_to_homeActivity"
+            app:destination="@id/homeActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeActivity"
+        android:name="com.example.socialv2.HomeActivity"
+        android:label="HomeActivity"
+
+        tools:layout="@layout/fragment_home"
+        >
+        <argument
+            android:name="status"
+            app:argType="string"
+            android:defaultValue='""' />
+
+        <action
+            android:id="@+id/action_homeActivity_to_startScreen"
+            app:destination="@id/startScreen" />
+        <action
+            android:id="@+id/action_homeActivity_to_eventsActivity"
+            app:destination="@id/eventsActivity" />
+       <action
+            android:id="@+id/action_homeActivity_to_settingsActivity"
+            app:destination="@id/settingsActivity" />
+        <action
+            android:id="@+id/action_homeActivity_to_profileActivity"
+            app:destination="@id/profileActivity" />
+
+        <action
+            android:id="@+id/action_homeActivity_to_chatActivity"
+            app:destination="@id/chatActivity" />
+
+        <action
+            android:id="@+id/action_homeActivity_to_friendsActivity"
+            app:destination="@id/friendsActivity" />
+     <!--  <action
+            android:id="@+id/action_homeActivity_to_eventsActivity"
+            app:destination="@id/eventsActivity" />
+  -->
+               <action
+            android:id="@+id/action_homeActivity_to_createActivity"
+            app:destination="@id/createActivity" />
+
+        <action
+            android:id="@+id/action_homeActivity_to_searchActivity"
+            app:destination="@id/searchActivity" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchActivity"
+        android:name="com.example.socialv2.SearchActivity"
+        android:label="SearchActivity"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_searchActivity_to_homeActivity"
+            app:destination="@id/homeActivity" >
+
+        </action>
+        <action
+            android:id="@+id/action_searchActivity_to_chatActivity"
+            app:destination="@id/chatActivity" >
+        </action>
+        <action
+            android:id="@+id/action_searchActivity_to_eventsActivity"
+            app:destination="@id/eventsActivity" >
+
+        </action>
+        <action
+        android:id="@+id/action_searchActivity_to_friendsActivity"
+        app:destination="@id/friendsActivity" >
+
+    </action>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/createActivity"
+        android:name="com.example.socialv2.CreateActivity"
+        android:label="CreateActivity"
+        tools:layout="@layout/fragment_create_activity">
+        <action
+            android:id="@+id/action_createActivity_to_homeActivity"
+            app:destination="@id/homeActivity" >
+
+        </action>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsActivity"
+        android:name="com.example.socialv2.SettingsActivity"
+        android:label="SettingsActivity"
+        tools:layout="@layout/fragment_settings">
+        <action
+            android:id="@+id/action_settingsActivity_to_homeActivity"
+            app:destination="@id/homeActivity" />
+        <action
+            android:id="@+id/action_settingsActivity_to_startScreen"
+            app:destination="@id/startScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileActivity"
+        android:name="com.example.socialv2.ProfileActivity"
+        android:label="ProfileActivity"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileActivity_to_homeActivity"
+            app:destination="@id/homeActivity" />
+    </fragment>
+
+    <fragment
+        tools:layout="@layout/chat"
+        android:id="@+id/chatActivity"
+        android:name="com.example.socialv2.ChatActivity"
+        android:label="ChatActivity" >
+        <action
+            android:id="@+id/action_chatActivity_to_homeActivity"
+            app:destination="@id/homeActivity" />
+        <argument
+            android:name="chatter"
+            app:argType="com.example.socialv2.Model.User" />
+        <action
+            android:id="@+id/action_chatActivity_to_friendsActivity"
+            app:destination="@id/friendsActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/friendsActivity"
+        android:name="com.example.socialv2.FriendsActivity"
+        android:label="fragment_friends"
+        tools:layout="@layout/fragment_friends" >
+        <action
+            android:id="@+id/action_friendsActivity_to_homeActivity2"
+            app:destination="@id/homeActivity" />
+        <action
+            android:id="@+id/action_friendsActivity_to_chatActivity"
+            app:destination="@id/chatActivity" />
+        <action
+            android:id="@+id/action_friendsActivity_to_eventsActivity"
+            app:destination="@id/eventsActivity" />
+        <action
+            android:id="@+id/action_friendsActivity_to_settingsActivity"
+            app:destination="@id/settingsActivity" />
+        <action
+            android:id="@+id/action_friendsActivity_to_searchActivity"
+            app:destination="@id/searchActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/eventsActivity"
+        android:name="com.example.socialv2.EventsActivity"
+        android:label="fragment_events"
+        tools:layout="@layout/fragment_events" >
+        <action
+            android:id="@+id/action_eventsActivity_to_homeActivity"
+            app:destination="@id/homeActivity" />
+        <action
+            android:id="@+id/action_eventsActivity_to_friendsActivity"
+            app:destination="@id/friendsActivity" />
+        <action
+            android:id="@+id/action_eventsActivity_to_searchActivity"
+            app:destination="@id/searchActivity" />
+    </fragment>
+
+</navigation>

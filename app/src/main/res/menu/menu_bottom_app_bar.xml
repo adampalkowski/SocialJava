@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_icon_search"
+        android:orderInCategory="1"
+
+        android:title="Search" />
+
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_rectangle_20"
+        android:title="Home"
+        />
+
+    <item
+        android:id="@+id/friends"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_friends"
+        android:title="Friends" />
+
+    <item
+        android:id="@+id/eventsActivity"
+        android:orderInCategory="4"
+        android:icon="@drawable/ic_icon_events"
+        android:title="Events" />
+
+
+</menu>

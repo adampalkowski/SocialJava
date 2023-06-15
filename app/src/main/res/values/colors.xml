@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+        <color name="purple_200">#FFBB86FC</color>
+        <color name="light_green">#bcf5bc </color>
+        <color name="purple_500">#FF6200EE</color>
+        <color name="purple_700">#FF3700B3</color>
+        <color name="teal_200">#FF03DAC5</color>
+        <color name="teal_700">#FF018786</color>
+        <color name="lightlightgray">#E6E7EB</color>
+
+
+        <color name="nearlyWhite">#F1FAEE</color>
+        <color name="lightBlue">#acd7e6</color>
+        <color name="spaceCadet">#1d2951</color>
+        <color name="backgroundx">#693E81</color>
+        <color name="background">#000814</color>
+        <color name="oxford_blue">#000814</color>
+        <color name="prussian_blue">#003566</color>
+        <color name="mikado_yellow">#FFC300</color>
+        <color name="gold_web">#FFD60A</color>
+        <color name="Black">#000000</color>
+        <color name="black">#000000</color>
+        <color name="fui_transparent">#0000ffff</color>
+        <color name="darkblue">#4848F8</color>
+
+        <color name="White">#FFFFFF</color>
+        <color name="white">#FFFFFF</color>
+
+        <color name="Amber_50">#FFF8E1</color>
+        <color name="Amber_100">#FFECB3</color>
+        <color name="Amber_200">#FFE082</color>
+        <color name="Amber_300">#FFD54F</color>
+        <color name="Amber_400">#FFCA28</color>
+        <color name="Amber_500">#FFC107</color>
+        <color name="Amber_600">#FFB300</color>
+        <color name="Amber_700">#FFA000</color>
+        <color name="Amber_800">#FF8F00</color>
+        <color name="Amber_900">#FF6F00</color>
+        <color name="Amber_A100">#FFE57F</color>
+        <color name="Amber_A200">#FFD740</color>
+        <color name="Amber_A400">#FFD740</color>
+        <color name="Amber_A700">#FFAB00</color>
+
+
+
+        <color name="Lime_50">#F9FBE7</color>
+        <color name="Lime_100">#F0F4C3</color>
+        <color name="Lime_200">#E6EE9C</color>
+        <color name="Lime_300">#DCE775</color>
+        <color name="Lime_400">#D4E157</color>
+        <color name="Lime_500">#CDDC39</color>
+        <color name="Lime_600">#C0CA33</color>
+        <color name="Lime_700">#AFB42B</color>
+        <color name="Lime_800">#9E9D24</color>
+        <color name="Lime_900">#827717</color>
+        <color name="Lime_A100">#F4FF81</color>
+        <color name="Lime_A200">#EEFF41</color>
+        <color name="Lime_A400">#C6FF00</color>
+        <color name="Lime_A700">#AEEA00</color>
+        <color name="orange">#F9FBE7</color>
+        <color name="red">#E63946</color>
+        <color name="gray">#707070</color>
+        <color name="lightgray">#D3D3D3</color>
+        <color name="blue">#5982FF</color>
+        <color name="brown">#582f0e</color>
+
+
+
+</resources>
